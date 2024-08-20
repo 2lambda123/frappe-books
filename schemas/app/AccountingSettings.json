@@ -80,13 +80,6 @@
       "section": "Features"
     },
     {
-      "fieldname": "enableCouponCode",
-      "label": "Enable Coupon Code",
-      "fieldtype": "Check",
-      "default": false,
-      "section": "Features"
-    },
-    {
       "fieldname": "enablePriceList",
       "label": "Enable Price List",
       "fieldtype": "Check",
@@ -117,6 +110,13 @@
     {
       "fieldname": "enablePricingRule",
       "label": "Enable Pricing Rule",
+      "fieldtype": "Check",
+      "default": false,
+      "section": "Features"
+    },
+    {
+      "fieldname": "enableCouponCode",
+      "label": "Enable Coupon Code",
       "fieldtype": "Check",
       "default": false,
       "section": "Features"
