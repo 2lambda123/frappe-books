@@ -16,6 +16,7 @@ import Misc from './app/Misc.json';
 import NumberSeries from './app/NumberSeries.json';
 import Party from './app/Party.json';
 import Lead from './app/Lead.json';
+import CouponCode from './app/CouponCode.json';
 import Payment from './app/Payment.json';
 import PaymentFor from './app/PaymentFor.json';
 import PriceList from './app/PriceList.json';
@@ -121,6 +122,7 @@ export const appSchemas: Schema[] | SchemaStub[] = [
   SalesInvoiceItem as SchemaStub,
   PurchaseInvoiceItem as SchemaStub,
   SalesQuoteItem as SchemaStub,
+  CouponCode as Schema,
 
   PriceList as Schema,
   PriceListItem as SchemaStub,
